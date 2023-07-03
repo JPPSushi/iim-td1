@@ -1,0 +1,23 @@
+{
+    "name": "tsulem/iim-td1",
+    "description": "a beautiful demo package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tsulem\\IimTd1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thibault Sulem",
+            "email": "thibault.sulem@edu.devinci.fr"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
